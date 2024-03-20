@@ -8,9 +8,14 @@ const FiltersContainer = ({ children }) => {
 
 const ItemsLeft = ({ total }) => {
     return (
-        <p className="text-gray-400 text-sm">
-            {total} items left
-        </p>
+        <p className="px-6 py-3 rounded-lg text-center">
+  <span className="inline-block bg-gray-700 hover:bg-red-500 text-white font-bold py-2 px-4 rounded-md shadow-md">
+    <span className="font-bold text-black">{total}</span> Tareas
+  </span>
+</p>
+
+
+
     )
 };
 

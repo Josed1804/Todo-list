@@ -30,7 +30,7 @@ const TodoFilters = ({ total, activeFilter, showAllTodos, showActiveTodos, showC
         onClick={() => handleClearComplete()}
         className="px-4 py-2 rounded-lg bg-red-500 text-white font-bold hover:bg-red-600 transition-colors duration-300 ease-in-out"
       >
-         Limpiar Completados
+         Limpiar
       </button>
         </FiltersContainer>
     )
